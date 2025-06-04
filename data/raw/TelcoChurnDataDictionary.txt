@@ -1,0 +1,21 @@
+customerID: Unique customer ID
+gender: “Male” or “Female”
+SeniorCitizen: 0 = No, 1 = Yes
+Partner: “Yes” or “No”
+Dependents: “Yes” or “No”
+tenure: Number of months the customer has been with the company
+PhoneService: “Yes” or “No”
+MultipleLines: “Yes”, “No”, or “No phone service”
+InternetService: “DSL”, “Fiber optic”, or “No”
+OnlineSecurity: “Yes”, “No”, or “No internet service”
+OnlineBackup: “Yes”, “No”, or “No internet service”
+DeviceProtection: “Yes”, “No”, or “No internet service”
+TechSupport: “Yes”, “No”, or “No internet service”
+StreamingTV: “Yes”, “No”, or “No internet service”
+StreamingMovies: “Yes”, “No”, or “No internet service”
+Contract: “Month-to-month”, “One year”, or “Two year”
+PaperlessBilling: “Yes” or “No”
+PaymentMethod: “Electronic check”, “Mailed check”, “Bank transfer (automatic)”, or “Credit card (automatic)”
+MonthlyCharges: The amount charged to the customer monthly (float)
+TotalCharges: The total amount charged to the customer (string/numeric; needs cleaning)
+Churn: “Yes” or “No” indicating if the customer left
