@@ -2,9 +2,12 @@
 
 ## Data Folders
 
-- `/data/raw/`  
-  - `Telco-Customer-Churn.csv` (raw churn data, 7043 rows × 21 columns)  
-  - `TelcoChurnDataDictionary.txt` (column descriptions)
+- `/data/raw/`
+  - `Telco-Customer-Churn.csv` (raw data)
+  - `TelcoChurnDataDictionary.txt` (column definitions)
+- `/data/processed/`
+  - `telco_churn_clean.csv` (cleaned, type‐converted, one‐hot encoded)
 
-- `/data/processed/`  
-  - (empty for now; this is where cleaned CSVs will go)
+
+
+  
