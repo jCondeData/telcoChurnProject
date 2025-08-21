@@ -1,0 +1,6 @@
+paths:
+  raw_csv: "data/raw/Telco-Customer-Churn.csv"
+  processed_csv: "data/processed/telco_churn_clean.csv"
+  scored_csv: "data/processed/telco_churn_scored.csv"
+  model_path: "models/telco_churn_rf.pkl"
+  metrics_path: "models/metrics.json"
